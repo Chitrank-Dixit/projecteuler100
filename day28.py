@@ -3,7 +3,6 @@ def distinct_powers(n):
     for i in range(2, n+1):
         for j in range(2, n+1):
             nums.append(i**j)
-    print(nums)
     return len(set(nums))
 
 
